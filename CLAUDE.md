@@ -14,6 +14,11 @@
 - `ai-consulting-site/images/` : 画像
 - `index.html`(ルート) : `ai-consulting-site/index.html` と同じ内容のコピー
 
+## 関連リポジトリ(Obsidian vault)
+- `xxxzizixxx2-tech/obsidian` : Obsidian のノート(note 記事のネタ帳・下書きなど)。PC の Obsidian と Obsidian Git プラグインで10分ごとに自動同期している
+- クラウドセッションでは、開始時にこのリポジトリを `add_repo` で追加して `/home/user/obsidian` に clone しておく(毎回の依頼を省くため)
+- vault への push は `main` に直接行う(Obsidian 側が `main` だけを pull するため)。ただし push は私が指示したときだけ
+
 ## コーディング規約
 - 命名規則: JavaScript の変数・関数は camelCase、CSS のクラス名は既存に合わせてケバブケース(例: `header-container`)
 - 既存コードのスタイル・パターンに合わせる。新しい流儀を持ち込まない
